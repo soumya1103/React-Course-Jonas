@@ -1,4 +1,5 @@
 import "./App.css";
+import DateCounter from "./DateCounter/DateCounter";
 import Steps from "./Steps/Steps";
 /* import Advice from "./Advice/Advice";
 import Header from "./Pizza/Header";
@@ -9,7 +10,8 @@ import Menu from "./Pizza/Menu"; */
 
 function App() {
   return (
-    <Steps />
+    <DateCounter />
+    //<Steps />
     // <ProfileCard />
     /* <div className="container">
       <Advice />
