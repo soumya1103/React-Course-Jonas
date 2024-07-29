@@ -1,6 +1,6 @@
 import "./App.css";
-import Flashcard from "./Flashcards/Flashcard";
-//import DateCounter from "./DateCounter/DateCounter";
+//import Flashcard from "./Flashcards/Flashcard";
+import DateCounter from "./DateCounter/DateCounter";
 //import Steps from "./Steps/Steps";
 //import TravelList from "./TravelList/TravelList";
 /* import Advice from "./Advice/Advice";
@@ -12,9 +12,9 @@ import Menu from "./Pizza/Menu"; */
 
 function App() {
   return (
-    <Flashcard />
+    //<Flashcard />
     //<TravelList />
-    //<DateCounter />
+    <DateCounter />
     //<Steps />
     // <ProfileCard />
     /* <div className="container">
