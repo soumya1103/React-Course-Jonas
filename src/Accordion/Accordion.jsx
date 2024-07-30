@@ -1,8 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import AccordionItem from "./AccordionItem";
 import "./accordion.css";
 
 export default function Accordion() {
+  const [curOpen, setCurOpen] = useState(null);
+
   const faqs = [
     {
       title: "Where are these chairs assembled?",
@@ -20,7 +22,14 @@ export default function Accordion() {
   return (
     <div className="accordion">
       {faqs.map((el, i) => (
-        <AccordionItem num={i} title={el.title} text={el.text} />
+        <AccordionItem
+          curOpen={curOpen}
+          onCurOpen={setCurOpen}
+          num={i}
+          title={el.title}
+        >
+          {el.text}
+        </AccordionItem>
       ))}
     </div>
   );
