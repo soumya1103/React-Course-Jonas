@@ -1,8 +1,9 @@
+import Accordion from "./Accordion/Accordion";
 import "./App.css";
 //import Flashcard from "./Flashcards/Flashcard";
 //import DateCounter from "./DateCounter/DateCounter";
 //import Steps from "./Steps/Steps";
-import TravelList from "./TravelList/TravelList";
+//import TravelList from "./TravelList/TravelList";
 /* import Advice from "./Advice/Advice";
 import Header from "./Pizza/Header";
 import Footer from "./Pizza/Footer";
@@ -12,8 +13,9 @@ import Menu from "./Pizza/Menu"; */
 
 function App() {
   return (
+    <Accordion />
     //<Flashcard />
-    <TravelList />
+    //<TravelList />
     //<DateCounter />
     //<Steps />
     // <ProfileCard />
