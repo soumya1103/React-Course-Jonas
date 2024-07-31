@@ -1,6 +1,7 @@
 import "./App.css";
+import EatNSplit from "./Eat N Split/EatNSplit";
 //import Accordion from "./Accordion/Accordion";
-import TipCalculator from "./TipCalculator/TipCalculator";
+//import TipCalculator from "./TipCalculator/TipCalculator";
 //import Flashcard from "./Flashcards/Flashcard";
 //import DateCounter from "./DateCounter/DateCounter";
 //import Steps from "./Steps/Steps";
@@ -14,7 +15,8 @@ import Menu from "./Pizza/Menu"; */
 
 function App() {
   return (
-    <TipCalculator />
+    <EatNSplit />
+    //<TipCalculator />
     //<Accordion />
     //<Flashcard />
     //<TravelList />
