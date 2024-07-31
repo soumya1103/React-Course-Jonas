@@ -1,5 +1,6 @@
 import "./App.css";
-import Accordion from "./Accordion/Accordion";
+//import Accordion from "./Accordion/Accordion";
+import TipCalculator from "./TipCalculator/TipCalculator";
 //import Flashcard from "./Flashcards/Flashcard";
 //import DateCounter from "./DateCounter/DateCounter";
 //import Steps from "./Steps/Steps";
@@ -13,7 +14,8 @@ import Menu from "./Pizza/Menu"; */
 
 function App() {
   return (
-    <Accordion />
+    <TipCalculator />
+    //<Accordion />
     //<Flashcard />
     //<TravelList />
     //<DateCounter />
