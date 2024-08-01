@@ -1,5 +1,7 @@
 import "./App.css";
-import EatNSplit from "./Eat N Split/EatNSplit";
+import AllTextExpander from "./TextExpander/AllTextExpander";
+//import UsePopcorn from "./UsePopcorn/UsePopcorn";
+//import EatNSplit from "./Eat N Split/EatNSplit";
 //import Accordion from "./Accordion/Accordion";
 //import TipCalculator from "./TipCalculator/TipCalculator";
 //import Flashcard from "./Flashcards/Flashcard";
@@ -15,7 +17,9 @@ import Menu from "./Pizza/Menu"; */
 
 function App() {
   return (
-    <EatNSplit />
+    <AllTextExpander />
+    //<UsePopcorn />
+    //<EatNSplit />
     //<TipCalculator />
     //<Accordion />
     //<Flashcard />
